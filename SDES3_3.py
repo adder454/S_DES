@@ -387,7 +387,7 @@ def asc():
     # 创建标签和文本框用于输入明文/密文和密钥
     encrypt_button = tk.Button(root, text="随机生成密钥", command=random_key)
     encrypt_button.pack()
-    input_label = tk.Label(root, text="输入明文或密文（支持中文）:")
+    input_label = tk.Label(root, text="输入明文或密文:")
     input_label.pack()
     input_text = tk.Entry(root)
     input_text.pack()
